@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 
 def main():
-    # Set page config
     st.set_page_config(page_title="Hemanth OpenAI Chat", page_icon="🤖")
     st.title("Hemanth's OpenAI GPT-4 Chat Interface")
 
