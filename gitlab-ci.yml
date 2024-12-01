@@ -1,0 +1,22 @@
+stages:         # Define the stages of the pipeline
+  - build
+  - test
+  - deploy
+
+# Build stage
+build_job:      
+  stage: build  # Assign to the build stage
+  script:       
+    - echo "Hello, World! from the build stage"
+
+# Test stage
+test_job:
+  stage: test   # Assign to the test stage
+  script:       
+    - echo "Hello, World! from the test stage"
+
+# Deploy stage
+deploy_job:
+  stage: deploy # Assign to the deploy stage
+  script:       
+    - echo "Hello, World! from the deploy stage"
